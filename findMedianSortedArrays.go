@@ -6,7 +6,8 @@ The overall run time complexity should be O(log(m+n)).
 You may assume nums1 and nums2 cannot be both empty.
 */
 
-package findmediansortedarrays
+// Package gocode ...
+package gocode
 
 import (
 	"fmt"
@@ -57,5 +58,3 @@ func AppendAndSort(nums1 []int, nums2 []int) []int {
 	fmt.Println("Sorted array is ", newArr)
 	return newArr
 }
-
-func main() {}
