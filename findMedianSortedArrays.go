@@ -49,7 +49,7 @@ func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	}
 }
 
-// AppendAndSort : Takes two int arrays, returns one sorted int array
+// AppendAndSort : Takes two int arrays, returns one sorted array
 func AppendAndSort(nums1 []int, nums2 []int) []int {
 	fmt.Println("Array 1 is ", nums1)
 	fmt.Println("Array 2 is ", nums2)
