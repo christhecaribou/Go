@@ -1,8 +1,8 @@
 /*
 CHRIS FELLI, 2019
-Sudoku
+Sudoku solver, given a board of type [][]byte
 */
-
+// package gocode ...
 package gocode
 
 func solveSudoku(board [][]byte) {
