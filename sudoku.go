@@ -2,7 +2,8 @@
 CHRIS FELLI, 2019
 Sudoku solver, given a board of type [][]byte
 */
-// package gocode ...
+
+//Package gocode ...
 package gocode
 
 func solveSudoku(board [][]byte) {

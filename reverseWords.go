@@ -4,7 +4,8 @@ This algorithm reverses words, such that
 "Hello world!" => "world! Hello"
 " My name is   Chris" => "Chris is name My"
 */
-// package gocode ...
+
+//Package gocode ...
 package gocode
 
 import "strings"
