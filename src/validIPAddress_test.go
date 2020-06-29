@@ -5,8 +5,8 @@ IPv4: 192.168.255.255
 IPv6: 2001:0db8:85a3:0:0:8A2E:0370:7334
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 import (
 	"fmt"

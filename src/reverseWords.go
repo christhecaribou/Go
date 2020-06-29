@@ -5,8 +5,8 @@ This algorithm reverses words, such that
 " My name is   Chris" => "Chris is name My"
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 import "strings"
 

@@ -3,8 +3,8 @@ CHRIS FELLI, 2019
 Reverse a linked list
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 //ListNode : A linked list
 type ListNode struct {

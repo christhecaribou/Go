@@ -5,7 +5,7 @@ positive integer N such that N is divisible by K, and N only contains the digit 
 Return the length of N.  If there is no such N, return -1.
 */
 
-package gocode
+package main
 
 func smallestRepunitDivByK(K int) int {
 	if(K%2==0 || K%5==0){

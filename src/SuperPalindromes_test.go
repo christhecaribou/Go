@@ -4,8 +4,8 @@ Let's say a positive integer is a superpalindrome if it is a palindrome,
 and it is also the square of a palindrome.
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 import (
 	"fmt"

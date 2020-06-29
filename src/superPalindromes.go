@@ -7,8 +7,8 @@ Though functional, this solution times out LeetCode and is not performant.
 A better solution can be found in "optimalSuperPalindromes"
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 import (
 	"fmt"

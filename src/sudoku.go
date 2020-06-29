@@ -3,8 +3,8 @@ CHRIS FELLI, 2019
 Sudoku solver, given a board of type [][]byte
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 func solveSudoku(board [][]byte) {
 	backTrack(board, 0)

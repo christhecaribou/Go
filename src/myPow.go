@@ -3,8 +3,8 @@ CHRIS FELLI, 2019
 Calculate x^n
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 import "math"
 

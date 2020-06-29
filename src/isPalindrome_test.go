@@ -3,8 +3,8 @@ CHRIS FELLI, 2019
 Given a string, returns whether or not it's a palindrome
 */
 
-//Package gocode ...
-package gocode
+//package main ...
+package main
 
 import (
 	"fmt"
