@@ -5,7 +5,7 @@ GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test
 GOGET=$(GOCMD) get
 
-PROGRAM=src/main.go
+PROGRAM=./src
 
 all: test build
 build:
