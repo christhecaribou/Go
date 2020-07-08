@@ -13,11 +13,11 @@ import (
 
 func TestMyPow1(t *testing.T) {
 	got := myPow(2, 10)
-	want := 1024.0
+	expected := 1024.0
 
-	if got != want {
-		t.Errorf("Got %f, wanted %f\nFAILED!\n", got, want)
+	if got != expected {
+		t.Errorf("Got %f, expected %f\nFAILED!\n", got, expected)
 	} else {
-		fmt.Printf("Got %f, wanted %f\nPASSED!\n\n", got, want)
+		fmt.Printf("Got %f, expected %f\nPASSED!\n\n", got, expected)
 	}
 }

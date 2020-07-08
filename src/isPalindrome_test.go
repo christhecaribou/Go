@@ -13,50 +13,50 @@ import (
 
 func TestIsPalindrome1(t *testing.T) {
 	testcase := "A man, a plan, a canal: Panama"
-	got := isPalindrome(testcase)
-	want := true
+	actual := isPalindrome(testcase)
+	expected := true
 
 	fmt.Printf("Attempting %q ...\n", testcase)
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if actual != expected {
+		t.Errorf("actual %v, expected %v\nFAILED!\n", actual, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("actual %v, expected %v\nPASSED!\n\n", actual, expected)
 	}
 }
 
 func TestIsPalindrome2(t *testing.T) {
 	testcase := "Race a car"
-	got := isPalindrome(testcase)
-	want := false
+	actual := isPalindrome(testcase)
+	expected := false
 
 	fmt.Printf("Attempting %q ...\n", testcase)
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if actual != expected {
+		t.Errorf("actual %v, expected %v\nFAILED!\n", actual, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("actual %v, expected %v\nPASSED!\n\n", actual, expected)
 	}
 }
 func TestIsPalindrome3(t *testing.T) {
 	testcase := "0P"
-	got := isPalindrome(testcase)
-	want := false
+	actual := isPalindrome(testcase)
+	expected := false
 
 	fmt.Printf("Attempting %q ...\n", testcase)
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if actual != expected {
+		t.Errorf("actual %v, expected %v\nFAILED!\n", actual, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("actual %v, expected %v\nPASSED!\n\n", actual, expected)
 	}
 }
 func TestIsPalindrome4(t *testing.T) {
 	testcase := "P"
-	got := isPalindrome(testcase)
-	want := true
-	
+	actual := isPalindrome(testcase)
+	expected := true
+
 	fmt.Printf("Attempting %q ...\n", testcase)
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if actual != expected {
+		t.Errorf("actual %v, expected %v\nFAILED!\n", actual, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("actual %v, expected %v\nPASSED!\n\n", actual, expected)
 	}
 }

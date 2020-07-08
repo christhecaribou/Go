@@ -13,22 +13,22 @@ import (
 
 func TestOptimalSuperPalindromes1(t *testing.T) {
 	got := optimalSuperPalindromesInRange("4", "1000")
-	want := 4
+	expected := 4
 
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if got != expected {
+		t.Errorf("Got %v, expected %v\nFAILED!\n", got, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("Got %v, expected %v\nPASSED!\n\n", got, expected)
 	}
 }
 
 func TestOptimalSuperPalindromes2(t *testing.T) {
 	got := optimalSuperPalindromesInRange("1", "999999999999999999")
-	want := 70
+	expected := 70
 
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if got != expected {
+		t.Errorf("Got %v, expected %v\nFAILED!\n", got, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("Got %v, expected %v\nPASSED!\n\n", got, expected)
 	}
 }

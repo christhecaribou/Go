@@ -14,21 +14,21 @@ import (
 
 func TestSuperPalindromes1(t *testing.T) {
 	got := superpalindromesInRange("4","1000")
-	want := 4
+	expected := 4
 
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if got != expected {
+		t.Errorf("Got %v, expected %v\nFAILED!\n", got, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("Got %v, expected %v\nPASSED!\n\n", got, expected)
 	}
 }
 func TestSuperPalindromes2(t *testing.T) {
 	got := superpalindromesInRange("1","2")
-	want := 1
+	expected := 1
 
-	if got != want {
-		t.Errorf("Got %v, wanted %v\nFAILED!\n", got, want)
+	if got != expected {
+		t.Errorf("Got %v, expected %v\nFAILED!\n", got, expected)
 	} else {
-		fmt.Printf("Got %v, wanted %v\nPASSED!\n\n", got, want)
+		fmt.Printf("Got %v, expected %v\nPASSED!\n\n", got, expected)
 	}
 }
