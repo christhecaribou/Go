@@ -14,3 +14,4 @@ test:
 	$(GOTEST) -v ./...
 clean:
 	$(GOCLEAN)
+	del /f src.exe
